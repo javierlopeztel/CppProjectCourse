@@ -12,7 +12,7 @@ int print_hello_world()
     // Adress Sanitizer should see this
     int *x = new int[42];
 
-    return 1;
+    return 2;
 }
 
 unsigned int factorial(unsigned int number)
